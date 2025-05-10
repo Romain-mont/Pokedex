@@ -4,9 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
     "dev": "node --watch index.js",
-    "db:reset": "psql -U admin_pokedex -d pokedex -f ./data/create_tables.sql && psql -U admin_pokedex -d pokedex -f ./data/seeding_tables.sql"
+    "db:reset": "psql -U admin_pokedex -d pokedex -f ./data/create_tables.sql && psql -U admin_pokedex -d pokedex -f ./data/seeding_tables.sql",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
