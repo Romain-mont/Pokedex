@@ -1,4 +1,4 @@
-const apiBaseUrl = "http://localhost:3000/api";
+const apiBaseUrl = "http://139.59.150.116:3000/api";
 
 export const api = {
   async fetchAllPokemons() {
