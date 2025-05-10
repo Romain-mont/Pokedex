@@ -1,4 +1,4 @@
-const apiBaseUrl = "http://139.59.150.116:3000/api";
+const apiBaseUrl = "https://pokedex-romain.duckdns.org/api";
 
 export const api = {
 	async fetchAllPokemons() {
